@@ -29,7 +29,7 @@
       font-family: 'Courier New', Courier;
       background: var(--bg);
       color: var(--fg);
-      padding: 2rem;
+      padding:1rem;
       transition: background 0.4s ease, color 0.4s ease;
       display: flex;
       flex-direction: column;
@@ -56,7 +56,7 @@
 
     .theme-switch {
       position: absolute;
-      top: 2rem;
+      top: 1.25rem;
       right: 2rem;
     }
 
@@ -172,8 +172,8 @@
     }
     
     .tech-wheel .logo {
-      --icon-count: 16;
-      --radius: 120px;
+      --icon-count: 19;
+      --radius: 160px;
       position: absolute;  
       top: 50%;
       left: 50%;
@@ -196,8 +196,8 @@
     }
 
     .tech-wheel .logo img {
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
       object-fit: contain;
       animation: counterspin 40s linear infinite;
     }
@@ -302,12 +302,12 @@
 
   <div class="title-box">
     <h1>Ivan Lumbano Vivar's [No-frills Personal Showcase]</h1>
-    <div class ="description" style="margin-bottom: 20px;">
+    <div class ="description" style="margin-bottom: 5px;">
       <p>
         " I'm Ivan, a computer engineer heavily focused in Hardware & Software Integration Development with S-tier level Hardware-Crafting skills. "
       </p>
     </div>
-    <div class ="typing" style="margin-bottom: 20px;">
+    <div class ="typing" style="margin-bottom: 5px;">
       <p>$ echo "Veteran Unix-Like OS user"</p>
     </div>
     <p>
@@ -316,7 +316,7 @@
     <p>
       &#127970 Studying at Polytechnic University of Madrid, Spain
     </p>    
-    <div class="margin" style="margin-bottom: 20px;"></div>
+    <div class="margin" style="margin-bottom: 5px;"></div>
     <div class="contact">
       <a href="mailto:infoilv.00@gmail.com" class="button"><img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/mail.svg"></a>
       <a href="https://github.com/IvnLum" class="button github" target="_blank"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"></a>
@@ -333,11 +333,11 @@
     </label>
   </div>
 
-  <div class="margin" style="margin-bottom: 30px;"></div>
+  <div class="margin" style="margin-bottom: 20px;"></div>
   <div class="proj">
     <h1>Tech Stack</h1>
   </div>
-   <div class="margin" style="margin-bottom: 10px;"></div>
+   <div class="margin" style="margin-bottom: 30px;"></div>
   <section class="tech-stack-wheel">
     <div class="tech-wheel">
         <div class="logo" style="--i:0;">
@@ -387,13 +387,24 @@
           <a href="https://unity.com" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/unity.svg" alt="Unity" title="Unity"></a>
         </div>
 
-      <div class="logo" style="--i:15;">
+        <div class="logo" style="--i:15;">
           <a href="https://developer.nvidia.com/cuda-toolkit" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/nvidia" alt="CUDA" title="CUDA"></a>
         </div>
+
+        <div class="logo" style="--i:16;">
+          <a href="https://mqtt.org/" target="_blank" rel="noopener noreferrer"><img src="https://mqtt.org/assets/img/mqtt-logo-ver.jpg" alt="MQTT" title="MQTT"></a>
+        </div>
+        <div class="logo" style="--i:17">
+          <a href="https://www.freertos.org/" target="_blank" rel="noopener noreferrer"><img src="https://openlabpro.com/wp-content/uploads/2019/09/freertos.png" alt="freeRTOS" title="freeRTOS"></a>
+        </div>
+      
+        <div class="logo" style="--i:18">
+          <a href="https://www.adacore.com/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/ada" alt="ADA" title="ADA"></a>
+        </div>      
     </div>
   </section>
   
-  <div class="margin" style="margin-bottom: 20px;"></div>
+  <div class="margin" style="margin-bottom: 40px;"></div>
   <div class="proj">
     <h1>Personal Projects</h1>
   </div>
@@ -427,7 +438,7 @@
       <a href="https://github.com/IvnLum/ToFMAP" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/IvnLum/ToFMAP/main/img/ToFMAP.png" alt="DevSpace Screenshot" /></a>
       <div class="card-content">
         <h3>"ToFMAP" FPGA-Based area mapping UGV using Basys-3 (Artix-7)</h3>
-        <p>Complete FPGA-Based area mapping UGV (Unmanned Ground Vehicle) over a Digilent's Basys 3 using a single ToF Module & stepper motor</p>
+        <p>Complete FPGA-Based area mapping UGV (Unmanned Ground Vehicle) over a Digilent's Basys 3 using a single ToF Module & stepper motor, custom Realtime serial byte-packet protocol.</p>
       </div>
       <div class="project-tech"  style="margin-left: 20px; margin-bottom: 10px;">
         <a href="https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Microelectronics/VHDL" target="_blank" rel="noopener noreferrer"><img src="https://camo.githubusercontent.com/83c4a8725383c784e762d0410af22fc9d010a9e856e930aceeee7fbabafa04a2/68747470733a2f2f706c61792d6c682e676f6f676c6575736572636f6e74656e742e636f6d2f7865755366514874387745622d4a6463584c74526547462d4b4f385f526432554d4f4c3076534236625339716c7864414751305652346d4d39775665456237364541" alt="VHDL" title="VHDL"></a>
@@ -463,7 +474,7 @@
       <a href="https://github.com/IvnLum/PerlinPathfinder" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/IvnLum/PerlinPathfinder/refs/heads/main/img/path.gif" alt="DevSpace Screenshot" /></a>
       <div class="card-content">
         <h3>Custom Perlin Map & PathFinder implementation in Unity</h3>
-        <p>Map generation based in random regions of the perlin noise map. Pathfinder solver using A* (90º turns) </p>
+        <p>Map generation based in random regions of the perlin noise (z-null bi-dimensional slice). Pathfinder solver using A* (90º turns) </p>
       </div>
       <div class="project-tech" style="margin-left: 20px; margin-bottom: 10px;">
         <div class="logo" style="--i:4;">
@@ -496,6 +507,21 @@
         <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/gnubash/449944" alt="Bash" title="Bash"></a>
       </div>
     </div>
+    <div class="card">
+      <a href="https://github.com/IvnLum/DomoHelios" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/IvnLum/DomoHelios/main/showoff/solar_kinect.gif" alt="DevSpace Screenshot" /></a>
+      <div class="card-content">
+        <h3>"DomoHelios" an ESP-32 based solar powered IoT Home management system</h3>
+        <p>IoT Home management (home automation) and energy charging system powered and regulated entirely by solar energy (360º Solar tracker). ESP-32 as main MCU</p>
+      </div>
+      <div class="project-tech" style="margin-left: 20px; margin-bottom: 10px;">
+        <a href="https://www.c-language.org/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" title="C"></a>
+        <a href="https://isocpp.org/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++"></a>        
+        <a href="https://www.kernel.org/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" title="Linux"></a>
+        <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/gnubash/449944" alt="Bash" title="Bash"></a>
+        <a href="https://mqtt.org/" target="_blank" rel="noopener noreferrer"><img src="https://mqtt.org/assets/img/mqtt-logo-ver.jpg" alt="MQTT" title="MQTT"></a>
+        <a href="https://www.freertos.org/" target="_blank" rel="noopener noreferrer"><img src="https://openlabpro.com/wp-content/uploads/2019/09/freertos.png" alt="freeRTOS" title="freeRTOS"></a>
+      </div>
+    </div>    
     <div class="card">
       <a href="/" target="_blank" rel="noopener noreferrer"><img src="https://www.svgrepo.com/show/535293/circle-plus.svg" alt="DevSpace Screenshot" /></a>
       <div class="card-content">
