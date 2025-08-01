@@ -272,6 +272,7 @@
     }
 
     .typing {
+      font-family: 'Courier New', Courier;
       font-weight: bold;      
       overflow: hidden;
       white-space: nowrap;
@@ -300,30 +301,36 @@
 </head>
 <body class="dark">
 
-  <div class="title-box">
-    <h1>Ivan Lumbano Vivar's [No-frills Personal Showcase]</h1>
-    <div class ="description" style="margin-bottom: 5px;">
-      <p>
-        " I'm Ivan, a computer engineer heavily focused in Hardware & Software Integration Development with S-tier level Hardware-Crafting skills. "
-      </p>
+<div class="title-box" style="position: relative;">
+  <h1 style="margin-bottom: 10px;">Ivan Lumbano Vivar's [No-frills Personal Showcase]</h1>
+  <div style="display: flex; justify-content: space-between;">
+    <div class="content">
+      <div class="description" style="margin-bottom: 5px;">
+        <p>
+         " I'm Ivan, a computer engineer heavily focused in Hardware & Software Integration Development with S-tier level Hardware-Crafting skills. "
+        </p>
+      </div>
+      <div class="typing" style="margin-bottom: 5px;">
+        <p>$ echo "Veteran Unix-Like OS user"</p>
+      </div>
+      <p>&#128205 Madrid, Spain</p>
+      <p>&#127970 Studying at Polytechnic University of Madrid, Spain</p>    
+      <div class="margin" style="margin-bottom: 5px;"></div>
+      <div class="contact">
+        <a href="mailto:infoilv.00@gmail.com" class="button"><img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/mail.svg"></a>
+        <a href="https://github.com/IvnLum" class="button github" target="_blank"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"></a>
+        <a href="https://www.linkedin.com/in/ivan-lum" class="button linkedin" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"></a>
+        <a href="https://www.youtube.com/@Ivan_Lum" class="button linkedin" target="_blank"><img src="https://cdn.simpleicons.org/youtube/110022"></a>
+      </div>
     </div>
-    <div class ="typing" style="margin-bottom: 5px;">
-      <p>$ echo "Veteran Unix-Like OS user"</p>
-    </div>
-    <p>
-      &#128205 Madrid, Spain
-    </p>
-    <p>
-      &#127970 Studying at Polytechnic University of Madrid, Spain
-    </p>    
-    <div class="margin" style="margin-bottom: 5px;"></div>
-    <div class="contact">
-      <a href="mailto:infoilv.00@gmail.com" class="button"><img src="https://cdn.jsdelivr.net/npm/lucide-static/icons/mail.svg"></a>
-      <a href="https://github.com/IvnLum" class="button github" target="_blank"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"></a>
-      <a href="https://www.linkedin.com/in/ivan-lum" class="button linkedin" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"></a>
-      <a href="https://www.youtube.com/@Ivan_Lum" class="button linkedin" target="_blank"><img src="https://cdn.simpleicons.org/youtube/110022"></a>
+
+    <!-- Image in top-right -->
+    <div class="profile-image" style="margin-left: 0px;">
+      <img src="https://avatars.githubusercontent.com/u/185734466?v=4" alt="Profile Photo" style="width: 150px; border-radius: 75px;">
     </div>
   </div>
+</div>
+  
 
   <!-- Minimal toggle -->
   <div class="theme-switch">
@@ -562,4 +569,5 @@
   </script>
 </body>
 </html>
+
 
